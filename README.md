@@ -1,2 +1,2 @@
 # practice-set1
-javascript codes
+by practice questions are uploaded here
