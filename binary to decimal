@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int toDecimal(int num) {
+	int ans = 0, power = 1;
+	while (num > 0) {
+		int digit = num % 10;
+		num /= 10;
+		ans += (digit * power);
+		power *= 2;
+	}
+	return ans;
+}
+
+int main() {
+	int did = toDecimal(101);
+	cout << did;
+
+}
